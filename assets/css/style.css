@@ -1,6 +1,6 @@
 body {
 	font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
-	font-size: 18px;
+	font-size: 16px;
 	line-height: 34px;
 	color: #777;
 	background: url("../images/concrete_seamless.png");
@@ -238,42 +238,52 @@ input[type=submit] {
   border: 0 none;
 }
 
-/* media queries */
+/* media queries ----------------------------------------------------------- */
 
 @media screen and (max-width: 980px) {
 
-  body {
+ 	body {
+		font-size: 14px;
+	}
 
-  }
+	#masthead {
+		position: static;
+	}
 
-  /* The wrapper's width will be 600px */
-  .wrapper {
-    width: 600px;
-  }
+	.main-section {
+		width: 75%;
+		/*max-width: 450px;*/
+	}
 }
 
 @media screen and (max-width: 768px) {
-  body {
 
-  }
+	body {
+		font-size: 12px;
+	}
 
-  /* The wrapper's width will be 600px */
-  .wrapper {
-    width: 600px;
-  }
+	#masthead {
+		position: static;
+	}
+
+	.sidebar {
+		float: left;
+		width: 100%;
+	}
 }
 
 @media screen and (max-width: 640px) {
-  body {
 
-  }
+	body {
+		font-size: 10px;
+	}
 
-  /* The wrapper's width will be 600px */
-  .wrapper {
-    width: 600px;
-  }
+	#masthead {
+		position: static;
+	}
+
+	.sidebar {
+		float: left;
+		width: 100%;
+	}
 }
-
-
-
-
